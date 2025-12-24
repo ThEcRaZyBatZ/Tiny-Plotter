@@ -16,7 +16,7 @@ It allows you to plot mathematical expressions interactively from the command li
 ---
 
 ## Build Instructions
-- on gcc "gcc src/main.c src/tiny_expr.c src/fun.c -o output/tiny_plotter $(pkg-config --cflags --libs sdl3 sdl3-image) -lm" wpuld do the trick.
+- on gcc "gcc src/main.c src/tiny_expr.c src/fun.c -o output/tiny_plotter $(pkg-config --cflags --libs sdl3 sdl3-image) -lm" would do the trick.
 - the flags are explicitly mentioned, the build instructions are commented out in main.c as well.
 - ./tiny_plotter "ln(x)" would open the window
 - keep in mind SDL_Hint is explicitly commented out in fun, if you want to use it on a specific driver, please add it in game_init.
