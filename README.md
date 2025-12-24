@@ -1,4 +1,4 @@
- tiny_plotter
+## tiny_plotter
 
 **tiny_plotter** is a lightweight 2D function plotter written in C using **SDL3** and **tinyexpr**.
 Some of the tinyexpr parsing content is customised.
